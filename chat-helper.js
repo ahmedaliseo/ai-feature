@@ -14,6 +14,7 @@
     'z-index: 9999;' +
     'display: flex;' +
     'align-items: center;' +
+    'test-align: center;' +
     'transition: background 0.3s;' +
     'margin-bottom: 15px;' +
     'width: fit-content;' +
