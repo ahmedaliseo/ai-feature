@@ -35,7 +35,7 @@
     var popup = document.createElement('div');
     popup.id = 'chat-help-popup';
     popup.innerHTML =
-     '🔍 رشّح لي أفضل منتج باستخدام الذكاء الاصطناعي';
+     '🔍 رشح لي أفضل منتج باستخدام الذكاء الاصطناعي';
     popup.onclick = function () {
       var currentUrl = encodeURIComponent(window.location.href);
       var prompt =
