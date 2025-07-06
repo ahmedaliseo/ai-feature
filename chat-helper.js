@@ -34,10 +34,7 @@
     var popup = document.createElement('div');
     popup.id = 'chat-help-popup';
     popup.innerHTML =
-      '<svg width="20" height="20" fill="white" viewBox="0 0 24 24">' +
-      '<path d="M12 3C6.48 3 2 6.96 2 11.5c0 2.34 1.16 4.45 3.05 5.9-.1.84-.41 1.94-.95 2.99 0 0-.01.01-.01.01a.75.75 0 001.04.96c1.6-.78 3.17-1.35 4.64-1.69 0 0 .01 0 .01-.01.44.08.89.12 1.36.12 5.52 0 10-3.96 10-8.5S17.52 3 12 3z"/>' +
-      '</svg>' +
-      '🔍 رشّح لي أفضل منتج باستخدام الذكاء الاصطناعي';
+     '🔍 رشّح لي أفضل منتج باستخدام الذكاء الاصطناعي';
     popup.onclick = function () {
       var currentUrl = encodeURIComponent(window.location.href);
       var prompt =
